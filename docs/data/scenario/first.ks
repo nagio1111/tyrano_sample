@@ -1,46 +1,56 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="赤ずきんちゃんの反撃"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「赤ずきんちゃんの反撃」[l][r]
 
-メロスは激怒した。[l][r]
+赤ずきんちゃんは狼に飲み込まれてしまった。
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+しかし、何とかして寝ている
+狼の腹を破って出てきた。[l][r]
 
-(中略)[l][r]
+なんて力だ！でもこのままでは
+また起きて来たらまた追いつかれてしまう。[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+赤ずきんちゃん、どうする？[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+
+
+[link target=*tag_kill] →お腹に石を詰めて懲らしめる [endlink][r]
+[link target=*tag_friend] →仲良くなる [endlink][r]
 [s]
 
-*tag_sleep
+*tag_kill
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=gebku.png time=500]
+狼が起きたところ、お腹の違和感に気づいた。[l][r]
+狼は石の処理ができず、赤ずきんちゃんに頼みこんだ。[r]
+そして狼は赤ずきんちゃんの下僕となった。[r]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
 
-【 BAD END 】[l][cm]
+
+
+【 下僕 END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
+*tag_friend
 
-[bg storage=run.jpg time=500]
+[bg storage=naayoshi.png time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+赤ずきんちゃんは狼にこっぴどく怒った。[l][r]
+そんなことよりも、狼は赤ずきんちゃんが
+とてもかわいいことに気づいた。[r]
+狼は「あなたに惚れました。
+お友達から始めてくれませんか？」といった。[r]
+赤ずきんちゃんは照れながら、「はい」と答えた。[r]
 
-【 GOOD END 】[l][cm]
+【 友達以上恋人未満 END 】[l][cm]
 
 [jump target=*start]
